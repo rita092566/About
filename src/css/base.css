@@ -39,7 +39,7 @@ body {
 }
 
 .demo-2 {
-	--color-bg: #8d8e98;
+	--color-bg: #7e9fdd;
 	--content-offset: 10vh;
 	--font-family: widescreen-mixed, sans-serif;
 	--font-size-l: 20vw;
@@ -215,6 +215,7 @@ main {
 	font-size: 1.25rem;
 	line-height: 1.8;
 	margin: 10vh auto;
+	color:#88e7c4;
 }
 
 p.footer {

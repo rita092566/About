@@ -39,7 +39,7 @@ body {
 }
 
 .demo-2 {
-	--color-bg: #7e9fdd;
+	--color-bg: #5A5B5E;
 	--content-offset: 10vh;
 	--font-family: widescreen-mixed, sans-serif;
 	--font-size-l: 20vw;
@@ -165,7 +165,7 @@ main {
 
 .frame__title {
 	margin: 0;
-	font-size: 1rem;
+	font-size: 20px;
 	font-weight: 500;
 }
 
@@ -206,17 +206,62 @@ main {
 	margin: var(--content-offset) 0 0 0;
 	display: flex;
 	flex-direction: column;	
-	align-items: center;
+	align-items: left;
+    font-family: pragmatica-extended, sans-serif;
+
 }
 
-.content p {
+.content p-1 {
 	hyphens: auto;
-	max-width: 500px;
-	font-size: 1.25rem;
-	line-height: 1.8;
-	margin: 10vh auto;
-	color:#88e7c4;
+	max-width: 1000px;
+	font-size: 1.3rem;
+	line-height: 45px;
+	color: #88e7c4;
+    font-family: pragmatica-extended, sans-serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding: 50px 0px 5px 150px;
+	
 }
+
+.content p-2 {
+	hyphens: auto;
+	max-width: 1000px;
+	font-size: 1.3rem;
+	line-height: 45px;
+	color: #96B8ED;
+    font-family: pragmatica-extended, sans-serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding: 20px 0px 5px 150px;
+}
+
+.content p-3 {
+	hyphens: auto;
+	max-width: 1000px;
+	font-size: 1rem;
+	line-height: 35px;
+	color: #88e7c4;
+    font-family: pragmatica-extended, sans-serif;
+	font-weight: 400;
+	letter-spacing: 2px;
+	padding: 20px 0px 50px 150px;
+
+}
+
+.content p-4 {
+	hyphens: auto;
+	max-width: 1000px;
+	font-size: 1rem;
+	line-height: 35px;
+	color: #96B8ED;
+    font-family: pragmatica-extended, sans-serif;
+	font-weight: 400;
+	letter-spacing: 2px;
+	padding: 20px 0px 50px 150px;
+
+}
+
 
 p.footer {
 	padding-top: 25vh;
@@ -254,6 +299,8 @@ p.footer {
 	-ms-user-select: none;
 	user-select: none;
 }
+
+
 
 .content__title--left {
 	margin-right: auto;

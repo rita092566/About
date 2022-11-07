@@ -36,7 +36,7 @@ body {
 }
 
 .demo-2 {
-  --color-bg: #7e9fdd;
+  --color-bg: #5a5b5e;
   --content-offset: 10vh;
   --font-family: widescreen-mixed, sans-serif;
   --font-size-l: 20vw;
@@ -151,7 +151,7 @@ main {
 
 .frame__title {
   margin: 0;
-  font-size: 1rem;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -187,18 +187,58 @@ main {
 
 .content {
   margin: var(--content-offset) 0 0 0;
+  align-items: left;
   flex-direction: column;
-  align-items: center;
+  font-family: pragmatica-extended, sans-serif;
   display: flex;
 }
 
-.content p {
+.content p-1 {
   hyphens: auto;
-  max-width: 500px;
+  max-width: 1000px;
   color: #88e7c4;
-  margin: 10vh auto;
-  font-size: 1.25rem;
-  line-height: 1.8;
+  letter-spacing: 2px;
+  padding: 50px 0 5px 150px;
+  font-family: pragmatica-extended, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+.content p-2 {
+  hyphens: auto;
+  max-width: 1000px;
+  color: #96b8ed;
+  letter-spacing: 2px;
+  padding: 20px 0 5px 150px;
+  font-family: pragmatica-extended, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+.content p-3 {
+  hyphens: auto;
+  max-width: 1000px;
+  color: #88e7c4;
+  letter-spacing: 2px;
+  padding: 20px 0 50px 150px;
+  font-family: pragmatica-extended, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.content p-4 {
+  hyphens: auto;
+  max-width: 1000px;
+  color: #96b8ed;
+  letter-spacing: 2px;
+  padding: 20px 0 50px 150px;
+  font-family: pragmatica-extended, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 35px;
 }
 
 p.footer {

@@ -36,6 +36,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	overflow: hidden;
 	overflow-y: scroll;
+	cursor: pointer;
 }
 
 .demo-2 {
@@ -262,7 +263,6 @@ main {
 
 }
 
-
 p.footer {
 	padding-top: 25vh;
 	font-size: 1rem;
@@ -292,7 +292,6 @@ p.footer {
 	font-family: var(--font-family);
 	font-weight: var(--font-weight);
 	text-transform: var(--font-case);
-	cursor: default;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-moz-user-select: none;

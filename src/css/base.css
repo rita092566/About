@@ -14,7 +14,7 @@ body {
 	--color-bg: #000;
 	--color-link: #fff;
 	--color-link-hover: #fff;
-	--font-size-s: 13vw;
+	--font-size-s: 11vw;
 	--font-size-m: 16vw;
 	--font-size-l: 24vw;
 	--font-size-xl: 26vw;
@@ -221,7 +221,7 @@ main {
     font-family: pragmatica-extended, sans-serif;
 	font-weight: 600;
 	letter-spacing: 2px;
-	padding: 50px 0px 5px 150px;
+	padding: 50px 0px 5px 0px;
 	
 }
 
@@ -234,7 +234,7 @@ main {
     font-family: pragmatica-extended, sans-serif;
 	font-weight: 600;
 	letter-spacing: 2px;
-	padding: 20px 0px 5px 150px;
+	padding: 20px 0px 5px 0px;
 }
 
 .content p-3 {
@@ -246,7 +246,7 @@ main {
     font-family: pragmatica-extended, sans-serif;
 	font-weight: 400;
 	letter-spacing: 2px;
-	padding: 20px 0px 50px 150px;
+	padding: 20px 0px 50px 0px;
 
 }
 
@@ -259,7 +259,7 @@ main {
     font-family: pragmatica-extended, sans-serif;
 	font-weight: 400;
 	letter-spacing: 2px;
-	padding: 20px 0px 50px 150px;
+	padding: 20px 0px 50px 0px;
 
 }
 
@@ -297,6 +297,7 @@ p.footer {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	white-space:nowrap;
 }
 
 
@@ -337,7 +338,7 @@ p.footer {
 	padding-bottom: 0;
 }
 
-@media screen and (min-width: 53em) {
+@media screen and (min-width: 800px) {
 	.frame {
 		display: grid;
 		grid-template-columns: auto auto auto;
@@ -356,5 +357,56 @@ p.footer {
 	}
 	.frame__links--demos {
 		grid-area: demos;
+	}
+
+	.content p-1 {
+		hyphens: auto;
+		max-width: 1000px;
+		font-size: 1.3rem;
+		line-height: 45px;
+		color: #88e7c4;
+		font-family: pragmatica-extended, sans-serif;
+		font-weight: 600;
+		letter-spacing: 2px;
+		padding: 50px 0px 5px 150px;
+		
+	}
+	
+	.content p-2 {
+		hyphens: auto;
+		max-width: 1000px;
+		font-size: 1.3rem;
+		line-height: 45px;
+		color: #96B8ED;
+		font-family: pragmatica-extended, sans-serif;
+		font-weight: 600;
+		letter-spacing: 2px;
+		padding: 20px 0px 5px 150px;
+	}
+	
+	.content p-3 {
+		hyphens: auto;
+		max-width: 1000px;
+		font-size: 1rem;
+		line-height: 35px;
+		color: #88e7c4;
+		font-family: pragmatica-extended, sans-serif;
+		font-weight: 400;
+		letter-spacing: 2px;
+		padding: 20px 0px 50px 150px;
+	
+	}
+	
+	.content p-4 {
+		hyphens: auto;
+		max-width: 1000px;
+		font-size: 1rem;
+		line-height: 35px;
+		color: #96B8ED;
+		font-family: pragmatica-extended, sans-serif;
+		font-weight: 400;
+		letter-spacing: 2px;
+		padding: 20px 0px 50px 150px;
+	
 	}
 }
